@@ -11,9 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b7d0e787-2ee7-423d-aaec-13a639a22ae8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wx/binarysearch/BinarySearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/binarysearch/BinarySearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/algorithm.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wx/bubbletsort/BubbletSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wx/insertsort/InsertSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/wx/bubbletsort/BubbletSortTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +40,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -47,7 +49,7 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BubbletSortTest">
     <configuration name="BinarySearchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.wx.binarysearch.BinarySearchTest" />
       <module name="algorithm" />
@@ -61,8 +63,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BubbletSortTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wx.bubbletsort.BubbletSortTest" />
+      <module name="algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wx.bubbletsort.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbletSortTest" />
         <item itemvalue="Application.BinarySearchTest" />
       </list>
     </recent_temporary>
@@ -77,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1652796626968</updated>
-      <workItem from="1652796629339" duration="2341000" />
+      <workItem from="1652796629339" duration="4145000" />
     </task>
     <servers />
   </component>
@@ -96,52 +112,45 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom" timestamp="1652798792765">
+    <state x="522" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1652893065255">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1652798792765" />
-    <state width="1493" height="192" key="GridCell.Tab.0.center" timestamp="1652798792765">
+    <state x="522" y="165" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.864@0.0.1536.864" timestamp="1652893065255" />
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom" timestamp="1652893262657">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1652798792765" />
-    <state width="1493" height="192" key="GridCell.Tab.0.left" timestamp="1652798792765">
+    <state width="1493" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1652893262657" />
+    <state width="1493" height="223" key="GridCell.Tab.0.center" timestamp="1652893262656">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1652798792765" />
-    <state width="1493" height="192" key="GridCell.Tab.0.right" timestamp="1652798792765">
+    <state width="1493" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1652893262656" />
+    <state width="1493" height="223" key="GridCell.Tab.0.left" timestamp="1652893262656">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1652798792765" />
-    <state width="1493" height="192" key="GridCell.Tab.1.bottom" timestamp="1652798792998">
+    <state width="1493" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1652893262656" />
+    <state width="1493" height="223" key="GridCell.Tab.0.right" timestamp="1652893262657">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1652798792998" />
-    <state width="1493" height="192" key="GridCell.Tab.1.center" timestamp="1652798792998">
+    <state width="1493" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1652893262657" />
+    <state width="1493" height="192" key="GridCell.Tab.1.bottom" timestamp="1652799073959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1652798792998" />
-    <state width="1493" height="192" key="GridCell.Tab.1.left" timestamp="1652798792998">
+    <state width="1493" height="192" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1652799073959" />
+    <state width="1493" height="192" key="GridCell.Tab.1.center" timestamp="1652799073959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1652798792998" />
-    <state width="1493" height="192" key="GridCell.Tab.1.right" timestamp="1652798792998">
+    <state width="1493" height="192" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1652799073959" />
+    <state width="1493" height="192" key="GridCell.Tab.1.left" timestamp="1652799073959">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="192" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1652798792998" />
+    <state width="1493" height="192" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1652799073959" />
+    <state width="1493" height="192" key="GridCell.Tab.1.right" timestamp="1652799073959">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="192" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1652799073959" />
     <state x="249" y="7" key="SettingsEditor" timestamp="1652798177201">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1652798177201" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/wx/binarysearch/BinarySearch.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
